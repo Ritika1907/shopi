@@ -9,7 +9,7 @@ function MyOrders(){
     useEffect(() => {
         const fetchOrders = async () => {
             try {
-                const response = await fetch("http://localhost:8080/orders", {
+                const response = await fetch("https://shopi-t63o.onrender.com/orders", {
                     method: "GET",
                     headers: {
                         "Content-Type": "application/json",
