@@ -64,7 +64,8 @@ JWT_SECRET=your_secret_key
 ```
 
 ## 🚀Deployed Link
-https://shopi-frontend.onrender.com/
+Frontend: https://shopi-frontend.onrender.com/
+Backend: https://shopi-t63o.onrender.com
 
 
 
