@@ -17,7 +17,7 @@ function Product(){
   const handleAddCart = async ()=>{
     const productInfo = {email:localStorage.getItem('userEmail'), productId: product.id, title: product.title, price: product.price, image: product.images[0]};
     try{
-        const url = "http://localhost:8080/cart/add";
+        const url = "https://shopi-t63o.onrender.com/cart/add";
 
         const response = await fetch(url,
             {
