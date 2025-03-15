@@ -10,7 +10,7 @@ function Cart(){
     useEffect(() => {
         const fetchCart = async () => {
             try {
-                const response = await fetch("http://localhost:8080/cart/mycart", {
+                const response = await fetch("https://shopi-t63o.onrender.com/cart/mycart", {
                     method: "GET",
                     headers: {
                         "Content-Type": "application/json",
@@ -31,7 +31,7 @@ function Cart(){
     }, []);
     const updateQuantity = async (productId, action) => {
         try {
-            const response = await fetch("http://localhost:8080/cart/update", {
+            const response = await fetch("https://shopi-t63o.onrender.com/cart/update", {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json",
@@ -48,7 +48,7 @@ function Cart(){
     };
     const handleCheckout = async () => {
         try {
-            const response = await fetch("http://localhost:8080/cart/checkout", {
+            const response = await fetch("https://shopi-t63o.onrender.com/cart/checkout", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
